@@ -73,7 +73,8 @@ public class InputManager : MonoBehaviour
                 break;
 
             case COMMAND.JUMP:
-                playerScript.Jump();
+                if (!down_up)
+                    playerScript.Jump();
                 break;
             case COMMAND.ATTACK:
                 {
@@ -82,7 +83,8 @@ public class InputManager : MonoBehaviour
                 break;
             case COMMAND.DASH:
                 {
-                    playerScript.Dash();
+                    if (!down_up)
+                        playerScript.Dash();
                     print("sending dash to playerscript");
                 }
                 break;

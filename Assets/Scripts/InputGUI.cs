@@ -9,19 +9,13 @@ public class InputGUI : MonoBehaviour
 	void Start () 
 	{
 		stringToEdit = "Enter Name";
+		CanPlay = true;
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-		if(stringToEdit != "Enter Name")
-		{
-			CanPlay = true;
-		}
-		else
-		{
-			CanPlay = false;
-		}
+			
 	}
 
 	void OnGUI() 
