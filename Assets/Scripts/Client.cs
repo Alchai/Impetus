@@ -76,7 +76,10 @@ public class Client : MonoBehaviour
                     theirPlayer.Jump();
                     break;
                 case 5:
-                    print("happen");
+                    if (theirPlayer.L_Attacking)
+                        theirPlayer.Attack_HeaveyMelee(theirPlayer);
+                    else
+                        theirPlayer.Attack_LightMelee(theirPlayer);
                     break;
                 case 6:
                     theirPlayer.Dash();

@@ -1,24 +1,24 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AudioManager : MonoBehaviour 
+public class AudioManager : MonoBehaviour
 {
     //private AudioClip[] sounds;
     //private AudioClip[] music;
 
-   static System.Collections.Generic.Dictionary<string, AudioClip> sounds;
-   static System.Collections.Generic.Dictionary<string, AudioClip> music;
-   static AudioSource p1Source, p2Source, p3Source, p4Source;
-   static Player playerRef;
-   static Client clientRef;
+    static System.Collections.Generic.Dictionary<string, AudioClip> sounds;
+    static System.Collections.Generic.Dictionary<string, AudioClip> music;
+    static AudioSource p1Source, p2Source, p3Source, p4Source;
+    static Player playerRef;
+    static Client clientRef;
 
     [SerializeField]
-   private bool mainMenus = false;
+    private bool mainMenus = false;
 
-	// Use this for initialization
-	void Start () 
+    // Use this for initialization
+    void Start()
     {
-        AudioSource[] audioSources =  this.GetComponents<AudioSource>();
+        AudioSource[] audioSources = this.GetComponents<AudioSource>();
         p1Source = audioSources[0];
         p2Source = audioSources[1];
         p3Source = audioSources[2];
@@ -29,12 +29,12 @@ public class AudioManager : MonoBehaviour
 
         //Load up all sounds/Music
         AudioClip[] tempSoundArray = Resources.LoadAll<AudioClip>("Sounds");
-        for(int curSoundIndex = 0; curSoundIndex < tempSoundArray.Length; ++curSoundIndex)
+        for (int curSoundIndex = 0; curSoundIndex < tempSoundArray.Length; ++curSoundIndex)
         {
             sounds.Add(tempSoundArray[curSoundIndex].name, tempSoundArray[curSoundIndex]);
         }
         AudioClip[] tempMusArray = Resources.LoadAll<AudioClip>("Music");
-        for(int curMusIndex = 0; curMusIndex < tempMusArray.Length; ++curMusIndex)
+        for (int curMusIndex = 0; curMusIndex < tempMusArray.Length; ++curMusIndex)
         {
             music.Add(tempMusArray[curMusIndex].name, tempMusArray[curMusIndex]);
         }
@@ -45,7 +45,7 @@ public class AudioManager : MonoBehaviour
         if (!mainMenus)
         {
             playerRef = GameObject.Find("me").GetComponent<Player>();
-            if(playerRef)
+            if (playerRef)
                 clientRef = playerRef.client;
 
             MuteBGM();
@@ -75,10 +75,10 @@ public class AudioManager : MonoBehaviour
                 }
             }
         }
-	}
-	
-	// Update is called once per frame
-	void Update () 
+    }
+
+    // Update is called once per frame
+    void Update()
     {
         if (!mainMenus)
         {
@@ -87,35 +87,42 @@ public class AudioManager : MonoBehaviour
             else
                 playerRef = GameObject.Find("me").GetComponent<Player>();
         }
-	}
-
-   static public void play(string soundName, float volume, Vector3 position)
-    {
-        AudioSource.PlayClipAtPoint(sounds[soundName], position, volume);
     }
 
-   static public void playAll()
-   {
-       if (p1Source)
-       {
-           p1Source.Play();
-       }
-       if (p2Source)
-       {
-           p2Source.Play();
-           p2Source.time = p1Source.time;
-       }
-       if (p3Source)
-       {
-           p3Source.Play();
-           p3Source.time = p2Source.time;
-       }
-       if (p4Source)
-       {
-           p4Source.Play();
-           p4Source.time = p3Source.time;
-       }
-   }
+    static public void play(string soundName, float volume, Vector3 position)
+    {
+        try
+        {
+            AudioSource.PlayClipAtPoint(sounds[soundName], position, volume);
+        }
+        catch
+        {
+
+        }
+    }
+
+    static public void playAll()
+    {
+        if (p1Source)
+        {
+            p1Source.Play();
+        }
+        if (p2Source)
+        {
+            p2Source.Play();
+            p2Source.time = p1Source.time;
+        }
+        if (p3Source)
+        {
+            p3Source.Play();
+            p3Source.time = p2Source.time;
+        }
+        if (p4Source)
+        {
+            p4Source.Play();
+            p4Source.time = p3Source.time;
+        }
+    }
 
     //TODO: put two audiosources on camera, one for each player
     //      Begin playing all sounds on start, set their volume based upon current hp/tugowar level

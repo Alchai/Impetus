@@ -11,6 +11,7 @@ public class InputManager : MonoBehaviour
     private bool leftWasDown, rightWasDown, downWasDown, upWasDown, lTriggerWasDown, rTriggerWasDown;
     public enum COMMAND { LEFT, DOWN, UP, RIGHT, JUMP, ATTACK, DASH, RANGED, INTERACT };
     public bool isMyPlayer = false;
+    Player playerScript;
 
     #endregion
 
@@ -19,6 +20,7 @@ public class InputManager : MonoBehaviour
         player = GameObject.Find("me");
         client = GameObject.Find("Client");
 
+        playerScript = player.GetComponent<Player>();
         //Check for controllers once at startup.
         if (Input.GetJoystickNames().GetLength(0) > 0)
             controllersConnected = true;
@@ -55,7 +57,6 @@ public class InputManager : MonoBehaviour
 
     public void ProcessInput(COMMAND cmdToSend, bool down_up)
     {
-        Player playerScript = player.GetComponent<Player>();
 
         switch (cmdToSend)
         {
@@ -79,8 +80,12 @@ public class InputManager : MonoBehaviour
             case COMMAND.ATTACK:
                 {
                     if (!down_up)
-                        playerScript.Attack_LightMelee(client.GetComponent<Client>().them.GetComponent<Player>());
-
+                    {
+                        if (playerScript.L_Attacking)
+                            StartCoroutine("BufferHAttack");
+                        else
+                            playerScript.Attack_LightMelee(client.GetComponent<Client>().them.GetComponent<Player>());
+                    }
                 }
                 break;
             case COMMAND.DASH:
@@ -96,6 +101,17 @@ public class InputManager : MonoBehaviour
                 }
                 break;
         }
+    }
+
+    private IEnumerator BufferHAttack()
+    {
+        while (playerScript.L_Attacking)
+        {
+            yield return new WaitForEndOfFrame();
+            print("still l attacking");
+        }
+        print("dont l attacking, time to do a h attack");
+        playerScript.Attack_HeaveyMelee(client.GetComponent<Client>().them.GetComponent<Player>());
     }
 
     void Update()

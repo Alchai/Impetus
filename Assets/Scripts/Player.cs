@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     private int BaseAttack, BaseDefense, jumpFrames = 25;
 
     public bool IsBlocking, IsMovingLeft, IsMovingRight, IsAirborne, canRight = true, canLeft = true,
-        applyGravity = true, canJump = false, isJumping = false, facingLeft = false, isHit = false;
+        applyGravity = true, canJump = false, isJumping = false, facingLeft = false, isHit = false, L_Attacking = false, H_Attacking = false;
 
     public int FramesForKnockback = 10;
 
@@ -36,6 +36,8 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+        client = GameObject.Find("Client").GetComponent<Client>();
+
         feet = transform.FindChild("feet").gameObject;
         head = transform.FindChild("head").gameObject;
 
@@ -129,7 +131,7 @@ public class Player : MonoBehaviour
     {
         isDashing = true;
         SInherit.ChangeState("Run");
-      
+
         if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, 90f, 0f)) < 150f)
             facingLeft = false;
         else
@@ -142,7 +144,7 @@ public class Player : MonoBehaviour
         {
             if (isDashing == false)
                 i = dashFrames;
-            
+
             transform.Translate(new Vector3(dashSpeed, 0f, 0f), Space.World);
 
             yield return new WaitForEndOfFrame();
@@ -170,8 +172,7 @@ public class Player : MonoBehaviour
 
     public void Attack_LightMelee(Player Them)
     {
-        print("hap");
-
+        L_Attacking = true;
         //Play Aminmation
         SInherit.ChangeState("Attack1");
         //Calc Attack amount
@@ -203,11 +204,12 @@ public class Player : MonoBehaviour
                 AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
                 break;
         }
-
+        L_Attacking = false;
     }
 
-    void Attack_HeaveyMelee(Player Them)
+    public void Attack_HeaveyMelee(Player Them)
     {
+        H_Attacking = true;
         //Play Aminmation
         SInherit.ChangeState("Attack2");
         //Calc Attack amount
@@ -237,7 +239,7 @@ public class Player : MonoBehaviour
                 AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
                 break;
         }
-
+        H_Attacking = false;
     }
 
     void Attack_Ranged(Player Them)

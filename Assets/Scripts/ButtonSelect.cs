@@ -9,7 +9,7 @@ public class ButtonSelect : MonoBehaviour
     {
         if (name.Contains("one"))
             currentSelection = 1;
-        else
+        else if(name.Contains("two"))
             currentSelection = 2;
     }
 
