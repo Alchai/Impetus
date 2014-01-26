@@ -138,7 +138,7 @@ ModelImporter:
     7400002: Run
     7400004: Jump
     7400006: Hit
-    7400008: Dash
+    7400008: Thrust
     7400010: Victory
     7400012: Attack1
     7400014: Attack2
@@ -182,7 +182,7 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 1
       lastFrame: 23.3999996
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -722,7 +722,7 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
-      name: Dash
+      name: Thrust
       takeName: Take 001
       firstFrame: 75
       lastFrame: 86
