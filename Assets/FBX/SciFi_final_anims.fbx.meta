@@ -124,8 +124,18 @@ ModelImporter:
     4300028: futurebadass_Rigged_Final:polySurface5
     4300030: futurebadass_Rigged_Final:polySurface6
     4300032: futurebadass_Rigged_Final:polySurface7
-    7400000: Take 001
+    7400000: Idle
+    7400002: Run
+    7400004: Jump
+    7400006: Dash
+    7400008: Hit
+    7400010: Victory
+    7400012: Attack1
+    7400014: Attack2
+    7400016: Ranged
+    7400018: AirKick
     9500000: //RootNode
+    11100000: //RootNode
     13700000: EBR:Mesh
     13700002: futurebadass_Rigged_Final:future_dude:ab_piece1
     13700004: futurebadass_Rigged_Final:future_dude:ab_piece2
@@ -157,14 +167,1314 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 28.8999996
+      lastFrame: 45
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dash
+      takeName: Take 001
+      firstFrame: 76
+      lastFrame: 111
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 111
+      lastFrame: 131
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Victory
+      takeName: Take 001
+      firstFrame: 131
+      lastFrame: 150
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Take 001
+      firstFrame: 153
+      lastFrame: 164
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack2
+      takeName: Take 001
+      firstFrame: 164
+      lastFrame: 178
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Ranged
+      takeName: Take 001
+      firstFrame: 181
+      lastFrame: 208
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AirKick
+      takeName: Take 001
+      firstFrame: 215
+      lastFrame: 243
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J4/futurebadass_Rigged_Final:Bind_J5/futurebadass_Rigged_Final:Bind_J6
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J7/futurebadass_Rigged_Final:Bind_J8/futurebadass_Rigged_Final:Bind_J9/futurebadass_Rigged_Final:Bind_J10/futurebadass_Rigged_Final:Bind_J11/futurebadass_Rigged_Final:Bind_J12/futurebadass_Rigged_Final:Bind_J13
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J1/futurebadass_Rigged_Final:Bind_J2/futurebadass_Rigged_Final:Bind_J3/futurebadass_Rigged_Final:Bind_J14/futurebadass_Rigged_Final:Bind_J15/futurebadass_Rigged_Final:Bind_J16/futurebadass_Rigged_Final:Bind_J17/futurebadass_Rigged_Final:Bind_J18/futurebadass_Rigged_Final:Bind_J19/futurebadass_Rigged_Final:Bind_J20
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J21/futurebadass_Rigged_Final:Bind_J22/futurebadass_Rigged_Final:Bind_J23/futurebadass_Rigged_Final:Bind_J24/futurebadass_Rigged_Final:Bind_J25
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29
+        weight: 1
+      - path: futurebadass_Rigged_Final:Bind_J/futurebadass_Rigged_Final:Bind_J26/futurebadass_Rigged_Final:Bind_J27/futurebadass_Rigged_Final:Bind_J28/futurebadass_Rigged_Final:Bind_J29/futurebadass_Rigged_Final:Bind_J30
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece1
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:ab_piece2
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:hip_Piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:L_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_foot_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_shoulder_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:future_dude:R_upperLeg_piece
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface1
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface2
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface3
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface5
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface6
+        weight: 1
+      - path: futurebadass_Rigged_Final:polySurface7
+        weight: 1
+      - path: futurebadass_Rigged_Final:Spartan_Model
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/EBR:Mesh
+        weight: 1
+      - path: joint1
+        weight: 1
+      - path: joint1/joint2
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
-    importBlendShapes: 1
+    importBlendShapes: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -193,5 +1503,5 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   userData: 
