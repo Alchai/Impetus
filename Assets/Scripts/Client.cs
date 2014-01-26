@@ -9,7 +9,6 @@ public class Client : MonoBehaviour
     #region Variables
 
     public int mySID = 0, inputDelay = 4, myChar, hisChar, playerNum;
-    public int p1Char, p2Char;
     private float fullPacketLength;
     private List<float> timesSent = new List<float>(), timesRecd = new List<float>();
 
@@ -62,7 +61,7 @@ public class Client : MonoBehaviour
     public void SendInput(int index, bool down_or_up, int seshID, bool p1_p2)
     {
         Player theirPlayer = them.GetComponent<Player>();
-      //  print(them.name + " just received an input!");
+        print(them.name + " just received an input!");
 
         switch (index)
         {
@@ -141,6 +140,8 @@ public class Client : MonoBehaviour
         myChar = myCharChoice;
         hisChar = opponentCharChoice;
         playerNum = whichPlayerAmI;
+
+        print("mychar is: " + myChar);
         Application.LoadLevel("CharacterSelect");
     }
 
@@ -153,18 +154,10 @@ public class Client : MonoBehaviour
     }
 
     [RPC]
-    public void CreateCharacter(int p1Play, int p2Play, int whichPlayer, Vector3 pos, Vector3 rot, int SID, string playerName)
+    public void CreateCharacter(int whichChar, int whichPlayer, Vector3 pos, Vector3 rot, int SID, string playerName)
     {
         GameObject newobj = char1;
-        int currentPlay;
-
-        if (whichPlayer == 1)
-            currentPlay = p1Play;
-        else
-            currentPlay = p2Play;
-      //  print("At creating of players p1 = " + p1Play + "p2= " + p2Play);
-
-        switch (currentPlay)
+        switch (whichChar)
         {
             case 1:
                 newobj = GameObject.Instantiate(char1) as GameObject;
@@ -192,7 +185,7 @@ public class Client : MonoBehaviour
 
         }
 
-       // print("player " + whichPlayer + " wants to create char: " + whichChar);
+        print("player " + whichPlayer + " wants to create char: " + whichChar);
 
         if (whichPlayer == playerNum)
         {
@@ -247,24 +240,26 @@ public class Client : MonoBehaviour
         {
             mybutton.transform.position = GameObject.Find("topleftplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 1;
+            myChar = 1;
         }
         else if (who.Contains("2") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 2)
         {
             mybutton.transform.position = GameObject.Find("toprightplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 2;
+            myChar = 2;
         }
         else if (who.Contains("3") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 3)
         {
             mybutton.transform.position = GameObject.Find("bottomleftplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 3;
+            myChar = 3;
         }
         else if (who.Contains("4") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 4)
         {
             mybutton.transform.position = GameObject.Find("bottomrightplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 4;
+            myChar = 4;
         }
-        p1Char = mybutton.GetComponent<ButtonSelect>().currentSelection;
-        p2Char = theirbutton.GetComponent<ButtonSelect>().currentSelection;
     }
 
     void OnGUI()

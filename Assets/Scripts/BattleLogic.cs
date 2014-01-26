@@ -11,7 +11,8 @@ public class BattleLogic : MonoBehaviour
         StartCoroutine("SendNewChars");
     }
 
-	private IEnumerator SendNewChars()
+
+    private IEnumerator SendNewChars()
     {
         yield return new WaitForSeconds(5f);
         Vector3 rotOffset = new Vector3(0f, -90f, 0f),
@@ -22,7 +23,8 @@ public class BattleLogic : MonoBehaviour
             rotOffset = new Vector3(0f, 90f, 0f);
             posOffset = new Vector3(-10f, 0f, 0f);
         }
-        print("At BattleLogic, p1Char = " + client.p1Char + " p2Char = " + client.p2Char);
-        client.networkView.RPC("CreateCharacter", RPCMode.Server, client.p1Char, client.p2Char, client.playerNum, posOffset, rotOffset, client.mySID, client.CharUserName);
+
+        print("clients mychar is: " + client.myChar);
+        client.networkView.RPC("CreateCharacter", RPCMode.Server, client.myChar, client.playerNum, posOffset, rotOffset, client.mySID, client.CharUserName);
     }
 }

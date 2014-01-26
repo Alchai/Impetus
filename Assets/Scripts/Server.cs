@@ -156,14 +156,15 @@ public class Server : MonoBehaviour
     }
 
     [RPC]
-    public void CreateCharacter(int p1Play, int p2Play, int whichPlayer, Vector3 pos, Vector3 rot, int SID, string playerName)
+    public void CreateCharacter(int whichChar, int whichPlayer, Vector3 pos, Vector3 rot, int SID, string playerName)
     {
         foreach (Session s in activeSessions)
         {
             if (SID.Equals(s.seshID))
             {
-				    networkView.RPC("CreateCharacter", s.p1, p1Play, p2Play, whichPlayer, pos, rot, s.seshID, playerName);
-                    networkView.RPC("CreateCharacter", s.p2, p1Play, p2Play, whichPlayer, pos, rot, s.seshID, playerName);
+                print("player " + whichPlayer + " chose char " + whichChar);
+				networkView.RPC("CreateCharacter", s.p1, whichChar, whichPlayer, pos, rot, s.seshID, playerName);
+				networkView.RPC("CreateCharacter", s.p2, whichChar, whichPlayer, pos, rot, s.seshID, playerName);
             }
         }
     }

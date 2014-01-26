@@ -80,13 +80,12 @@ public class AudioManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (!mainMenus)
         {
-            //if (playerRef)
-            //    updateBGM(playerRef.GetWinBackground());
-            //else
-            //    playerRef = GameObject.Find("me").GetComponent<Player>();
+            if (playerRef)
+                updateBGM(playerRef.GetWinBackground());
+            else
+                playerRef = GameObject.Find("me").GetComponent<Player>();
         }
     }
 
@@ -159,66 +158,66 @@ public class AudioManager : MonoBehaviour
     #region Update
     private void updateBGM(float player1Weight)
     {
-        //if (clientRef.myChar == 0 && clientRef.hisChar == 1)
-        //{
-        //    p1Source.volume = player1Weight;
-        //    p2Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 0 && clientRef.hisChar == 2)
-        //{
-        //    p1Source.volume = player1Weight;
-        //    p3Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 0 && clientRef.hisChar == 3)
-        //{
-        //    p1Source.volume = player1Weight;
-        //    p4Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 1 && clientRef.hisChar == 0)
-        //{
-        //    p2Source.volume = player1Weight;
-        //    p1Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 1 && clientRef.hisChar == 2)
-        //{
-        //    p2Source.volume = player1Weight;
-        //    p3Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 1 && clientRef.hisChar == 3)
-        //{
-        //    p2Source.volume = player1Weight;
-        //    p4Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 2 && clientRef.hisChar == 0)
-        //{
-        //    p3Source.volume = player1Weight;
-        //    p1Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 2 && clientRef.hisChar == 1)
-        //{
-        //    p3Source.volume = player1Weight;
-        //    p2Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 2 && clientRef.hisChar == 3)
-        //{
-        //    p3Source.volume = player1Weight;
-        //    p4Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 3 && clientRef.hisChar == 0)
-        //{
-        //    p4Source.volume = player1Weight;
-        //    p1Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 3 && clientRef.hisChar == 0)
-        //{
-        //    p4Source.volume = player1Weight;
-        //    p2Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
-        //else if (clientRef.myChar == 3 && clientRef.hisChar == 0)
-        //{
-        //    p4Source.volume = player1Weight;
-        //    p3Source.volume = playerRef.GetMaxLevelState() - player1Weight;
-        //}
+        if (clientRef.myChar == 0 && clientRef.hisChar == 1)
+        {
+            p1Source.volume = player1Weight;
+            p2Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 0 && clientRef.hisChar == 2)
+        {
+            p1Source.volume = player1Weight;
+            p3Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 0 && clientRef.hisChar == 3)
+        {
+            p1Source.volume = player1Weight;
+            p4Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 1 && clientRef.hisChar == 0)
+        {
+            p2Source.volume = player1Weight;
+            p1Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 1 && clientRef.hisChar == 2)
+        {
+            p2Source.volume = player1Weight;
+            p3Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 1 && clientRef.hisChar == 3)
+        {
+            p2Source.volume = player1Weight;
+            p4Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 2 && clientRef.hisChar == 0)
+        {
+            p3Source.volume = player1Weight;
+            p1Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 2 && clientRef.hisChar == 1)
+        {
+            p3Source.volume = player1Weight;
+            p2Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 2 && clientRef.hisChar == 3)
+        {
+            p3Source.volume = player1Weight;
+            p4Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 3 && clientRef.hisChar == 0)
+        {
+            p4Source.volume = player1Weight;
+            p1Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 3 && clientRef.hisChar == 0)
+        {
+            p4Source.volume = player1Weight;
+            p2Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
+        else if (clientRef.myChar == 3 && clientRef.hisChar == 0)
+        {
+            p4Source.volume = player1Weight;
+            p3Source.volume = playerRef.GetMaxLevelState() - player1Weight;
+        }
     }
     #endregion
 }
