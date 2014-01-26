@@ -27,8 +27,8 @@ public class Player : MonoBehaviour
 
     public Client client;
 
-    private float dashSpeed = .2f;
-    private int dashFrames = 12, FramsForKnockback = 10;
+    private float dashSpeed = .15f;
+    private int dashFrames = 13, FramsForKnockback = 10;
 
     private StatesInherit SInherit;
 
@@ -168,8 +168,10 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Attack_LightMelee(Player Them)
+    public void Attack_LightMelee(Player Them)
     {
+        print("hap");
+
         //Play Aminmation
         SInherit.ChangeState("Attack1");
         //Calc Attack amount
@@ -186,7 +188,7 @@ public class Player : MonoBehaviour
             this.sWinBackground += AttackAmount;
 
         //Play sound:
-        switch (this.client.myChar)
+        switch (client.myChar)
         {
             case 0:
                 AudioManager.play("Swoosh_Caveman", 1.0f, this.transform.position);

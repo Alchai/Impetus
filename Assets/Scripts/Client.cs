@@ -76,7 +76,7 @@ public class Client : MonoBehaviour
                     theirPlayer.Jump();
                     break;
                 case 5:
-                    //Attack here
+                    print("happen");
                     break;
                 case 6:
                     theirPlayer.Dash();

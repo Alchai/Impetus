@@ -78,6 +78,8 @@ public class InputManager : MonoBehaviour
                 break;
             case COMMAND.ATTACK:
                 {
+                    if (!down_up)
+                        playerScript.Attack_LightMelee(client.GetComponent<Client>().them.GetComponent<Player>());
 
                 }
                 break;
