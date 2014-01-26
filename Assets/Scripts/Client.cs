@@ -156,7 +156,7 @@ public class Client : MonoBehaviour
     public void CreateCharacter(int p1Play, int p2Play, int whichPlayer, Vector3 pos, Vector3 rot, int SID, string playerName)
     {
         GameObject newobj = char1;
-        int currentPlay;
+        int currentPlay = 0;
 
         if (whichPlayer == 1)
             currentPlay = p1Play;

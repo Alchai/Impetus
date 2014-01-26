@@ -154,15 +154,17 @@ public class Player : MonoBehaviour
 
     public void KnockBack()
     {
+        StopCoroutine("knockBack");
         StartCoroutine("knockBack");
     }
 
     private IEnumerator knockBack()
     {
+        SInherit.ChangeState("Hit");
+
         switch (this.client.myChar)
         {
             case 0:
-                //AudioManager.play("Swoosh_Caveman", 1.0, this.transform.position);
                 AudioManager.play("Caveman_groan2", 1.0f, this.transform.position);
                 break;
             case 1:
@@ -175,6 +177,7 @@ public class Player : MonoBehaviour
                 AudioManager.play("Caveman_Jump3", 1.0f, this.transform.position);
                 break;
         }
+
         for (int i = 0; i < FramesForKnockback; i++)
         {
             if (facingLeft)
@@ -201,7 +204,7 @@ public class Player : MonoBehaviour
     public void Attack_LightMelee(Player Them)
     {
         StartCoroutine("HackAttack");
-        
+
         //L_Attacking = true;
         ////Play Aminmation
         //SInherit.ChangeState("Attack1");
