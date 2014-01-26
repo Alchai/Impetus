@@ -29,8 +29,8 @@ public class Client : MonoBehaviour
     void Start()
     {
         CharUserName = SystemInfo.deviceName;
-        Network.Connect("72.238.29.102", 843);
-        //Network.Connect("localhost", 843);
+        //Network.Connect("72.238.29.102", 843);
+        Network.Connect("localhost", 843);
         DontDestroyOnLoad(gameObject);
 
         Application.targetFrameRate = 60;
@@ -63,43 +63,51 @@ public class Client : MonoBehaviour
         Player theirPlayer = them.GetComponent<Player>();
         print(them.name + " just received an input!");
 
-        if (!down_or_up)
-            switch (index)
-            {
-                case 0:
-                    theirPlayer.LeftPressed = true;
-                    break;
-                case 3:
-                    theirPlayer.RightPressed = true;
-                    break;
-                case 4:
-                    if (theirPlayer.canJump)
-                        theirPlayer.Jump();
-                    break;
-                case 5:
-                    if (theirPlayer.L_Attacking)
-                    {
-                        theirPlayer.Attack_HeaveyMelee(theirPlayer);
-                        print("doing heavy attack");
-                    }
-                    else
-                    {
-                        theirPlayer.Attack_LightMelee(theirPlayer);
-                        print("doing light attack");
-                    }
-                    break;
-                case 6:
-                    if (!theirPlayer.isDashing)
-                        theirPlayer.Dash();
-                    break;
-                case 7:
-                    //ranged here
-                    break;
-                default:
-                    break;
-            }
+        switch (index)
+        {
+            case 0:
+                if (!down_or_up)
+                {
+                    if (!theirPlayer.isAttacking && !theirPlayer.isDashing)
+                        theirPlayer.LeftPressed = true;
+                }
+                else
+                    theirPlayer.LeftPressed = false;
+                break;
+
+            case 3:
+                if (!down_or_up)
+                {
+                    if (!theirPlayer.isAttacking && !theirPlayer.isDashing)
+                        theirPlayer.RightPressed = true;
+                }
+                else
+                    theirPlayer.RightPressed = false;
+                break;
+
+            case 4:
+                if (theirPlayer.canJump && !theirPlayer.isAttacking && !down_or_up)
+                    theirPlayer.Jump();
+                break;
+            case 5:
+                if (!theirPlayer.isAttacking && !theirPlayer.isDashing && !down_or_up)
+                {
+                    theirPlayer.Attack_LightMelee(theirPlayer);
+                }
+                break;
+            case 6:
+                if (!theirPlayer.isDashing && !theirPlayer.isAttacking && !down_or_up)
+                    theirPlayer.Dash();
+                break;
+            case 7:
+                //ranged here
+                break;
+            default:
+                break;
+        }
 
         if (down_or_up)
+        {
             switch (index)
             {
                 case 0:
@@ -111,7 +119,7 @@ public class Client : MonoBehaviour
                 default:
                     break;
             }
-
+        }
     }
 
     public void GameOver()
@@ -178,7 +186,7 @@ public class Client : MonoBehaviour
         }
 
         print("player " + whichPlayer + " wants to create char: " + whichChar);
-     
+
         if (whichPlayer == playerNum)
         {
             newobj.AddComponent<InputManager>();

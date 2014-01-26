@@ -120,7 +120,7 @@ public class Player : MonoBehaviour
 
     public void Dash()
     {
-        if (!isDashing)
+        if (!isDashing && !isAttacking)
         {
             StopCoroutine("dash");
             StartCoroutine("dash");
@@ -142,7 +142,7 @@ public class Player : MonoBehaviour
 
         for (int i = 0; i < dashFrames; i++)
         {
-            if (isDashing == false)
+            if (isDashing == false || isJumping == true)
                 i = dashFrames;
 
             transform.Translate(new Vector3(dashSpeed, 0f, 0f), Space.World);
@@ -170,41 +170,55 @@ public class Player : MonoBehaviour
         }
     }
 
+    private IEnumerator HackAttack()
+    {
+        isAttacking = true;
+
+        SInherit.ChangeState("Attack1");
+
+        while (SInherit.currentState.animationName.Contains("Attack"))
+            yield return new WaitForEndOfFrame();
+
+        isAttacking = false;
+    }
+
     public void Attack_LightMelee(Player Them)
     {
-        L_Attacking = true;
-        //Play Aminmation
-        SInherit.ChangeState("Attack1");
-        //Calc Attack amount
-        float AttackAmount = this.BaseAttack * this.MeleeLightAttackScale;
-        //Play an attack animation.
+        StartCoroutine("HackAttack");
+        
+        //L_Attacking = true;
+        ////Play Aminmation
+        //SInherit.ChangeState("Attack1");
+        ////Calc Attack amount
+        //float AttackAmount = this.BaseAttack * this.MeleeLightAttackScale;
+        ////Play an attack animation.
 
-        //if (Them.IsBlocking)
-        //    AttackAmount *= LightMBlockAmount;
+        ////if (Them.IsBlocking)
+        ////    AttackAmount *= LightMBlockAmount;
 
-        Them.sWinBackground -= AttackAmount;
-        if (this.sWinBackground + AttackAmount > MaxLevelState)
-            this.sWinBackground = MaxLevelState;
-        else if (this.sWinBackground + AttackAmount < MaxLevelState)
-            this.sWinBackground += AttackAmount;
+        //Them.sWinBackground -= AttackAmount;
+        //if (this.sWinBackground + AttackAmount > MaxLevelState)
+        //    this.sWinBackground = MaxLevelState;
+        //else if (this.sWinBackground + AttackAmount < MaxLevelState)
+        //    this.sWinBackground += AttackAmount;
 
-        //Play sound:
-        switch (client.myChar)
-        {
-            case 0:
-                AudioManager.play("Swoosh_Caveman", 1.0f, this.transform.position);
-                break;
-            case 1:
-                AudioManager.play("Swoosh_Future", 1.0f, this.transform.position);
-                break;
-            case 2:
-                AudioManager.play("Swoosh_Spartan", 1.0f, this.transform.position);
-                break;
-            case 3:
-                AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
-                break;
-        }
-        L_Attacking = false;
+        ////Play sound:
+        //switch (client.myChar)
+        //{
+        //    case 0:
+        //        AudioManager.play("Swoosh_Caveman", 1.0f, this.transform.position);
+        //        break;
+        //    case 1:
+        //        AudioManager.play("Swoosh_Future", 1.0f, this.transform.position);
+        //        break;
+        //    case 2:
+        //        AudioManager.play("Swoosh_Spartan", 1.0f, this.transform.position);
+        //        break;
+        //    case 3:
+        //        AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
+        //        break;
+        //}
+        //L_Attacking = false;
     }
 
     public void Attack_HeaveyMelee(Player Them)
@@ -290,7 +304,7 @@ public class Player : MonoBehaviour
 
     public void Jump()
     {
-        if (canJump)
+        if (canJump && !isAttacking)
             StartCoroutine("jump");
     }
 

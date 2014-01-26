@@ -62,37 +62,43 @@ public class InputManager : MonoBehaviour
         {
             case COMMAND.LEFT:
                 if (!down_up)
-                    playerScript.LeftPressed = true;
+                {
+                    if (!playerScript.isAttacking && !playerScript.isDashing)
+                        playerScript.LeftPressed = true;
+                }
                 else
                     playerScript.LeftPressed = false;
                 break;
+
             case COMMAND.RIGHT:
                 if (!down_up)
-                    playerScript.RightPressed = true;
+                {
+                    if (!playerScript.isAttacking && !playerScript.isDashing)
+                        playerScript.RightPressed = true;
+                }
                 else
                     playerScript.RightPressed = false;
                 break;
 
             case COMMAND.JUMP:
-                if (!down_up)
+                if (!down_up && !playerScript.isAttacking && !playerScript.isJumping && playerScript.canJump)
                     playerScript.Jump();
                 break;
             case COMMAND.ATTACK:
                 {
-                    if (!down_up)
+                    if (!down_up && !playerScript.isAttacking && !playerScript.isDashing)
                     {
-                        if (playerScript.L_Attacking)
-                            StartCoroutine("BufferHAttack");
-                        else
-                            playerScript.Attack_LightMelee(client.GetComponent<Client>().them.GetComponent<Player>());
+                        playerScript.Attack_LightMelee(client.GetComponent<Client>().them.GetComponent<Player>());
                     }
                 }
                 break;
             case COMMAND.DASH:
                 {
-                    if (!down_up)
+                    if (!down_up && !playerScript.isAttacking && !playerScript.isDashing)
+                    {
                         playerScript.Dash();
-                    print("sending dash to playerscript");
+                        print("sending dash to playerscript");
+                    }
                 }
                 break;
             case COMMAND.RANGED:
@@ -103,16 +109,6 @@ public class InputManager : MonoBehaviour
         }
     }
 
-    private IEnumerator BufferHAttack()
-    {
-        while (playerScript.L_Attacking)
-        {
-            yield return new WaitForEndOfFrame();
-            print("still l attacking");
-        }
-        print("dont l attacking, time to do a h attack");
-        playerScript.Attack_HeaveyMelee(client.GetComponent<Client>().them.GetComponent<Player>());
-    }
 
     void Update()
     {

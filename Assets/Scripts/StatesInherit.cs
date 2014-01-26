@@ -69,6 +69,8 @@ public class StatesInherit : MonoBehaviour
         float blendOutRate = blendTime / OutFrames;
         float blendInRate = blendTime / InFrames;
 
+
+
         while (previousStateAnim.weight > 0.0f && currentStateAnim.weight < 1.0f)
         {
             while (isFrozen)
@@ -109,12 +111,19 @@ public class StatesInherit : MonoBehaviour
 
     void OnEnable()
     {
-        for (int i = 0; i < StateAnimations.Length; i++)
+        for (int i = 0; i < StateAnimations.Length - 1; i++)
         {
             StateAnimation state = StateAnimations[i];
             AnimationState anim = animation[state.animationName];
-            anim.weight = 0.0f;
-            anim.normalizedSpeed = 0.0f;
+            try
+            {
+                anim.weight = 0.0f;
+                anim.normalizedSpeed = 0.0f;
+            }
+            catch
+            {
+                print("probably had null");
+            }
         }
 
         currentState = GetState(startStateName);
