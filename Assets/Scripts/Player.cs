@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
     {
         feet = transform.FindChild("feet").gameObject;
         head = transform.FindChild("head").gameObject;
-
+        SInherit.ChangeState("Idle");
         if (transform.eulerAngles.y == 270 || transform.eulerAngles.y == -90)
             facingLeft = true;
         else
@@ -98,11 +98,15 @@ public class Player : MonoBehaviour
         {
             if (canLeft && LeftPressed)
             {
+                if (!isJumping && !isDashing)
+                    SInherit.ChangeState("Run");
                 transform.Translate(new Vector3(runSpeed, 0f, 0f), Space.World);
                 transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 90f, 0f), 45f);
             }
             if (canRight && RightPressed)
             {
+                if (!isJumping && !isDashing)
+                    SInherit.ChangeState("Run");
                 transform.Translate(new Vector3(-runSpeed, 0f, 0f), Space.World);
                 transform.eulerAngles = Vector3.MoveTowards(transform.eulerAngles, new Vector3(0f, 270f, 0f), 45f);
             }
@@ -121,6 +125,7 @@ public class Player : MonoBehaviour
     private IEnumerator dash()
     {
         isDashing = true;
+        SInherit.ChangeState("Dash");
         if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, 90f, 0f)) < 150f)
             facingLeft = false;
         else
@@ -134,7 +139,7 @@ public class Player : MonoBehaviour
             if ((float)dashFrames / 2f <= i)
             {
                 isDashing = false;
-                print("isdashing is false now");
+                print("isDashing is false now");
             }
             transform.Translate(new Vector3(dashSpeed, 0f, 0f), Space.World);
 
@@ -163,11 +168,13 @@ public class Player : MonoBehaviour
     void Attack_LightMelee(Player Them)
     {
         //Play Aminmation
+        SInherit.ChangeState("Attack1");
         //Calc Attack amount
         float AttackAmount = this.BaseAttack * this.MeleeLightAttackScale;
+        //Play an attack animation.
 
-        if (Them.IsBlocking)
-            AttackAmount *= LightMBlockAmount;
+        //if (Them.IsBlocking)
+        //    AttackAmount *= LightMBlockAmount;
 
         Them.sWinBackground -= AttackAmount;
         if (this.sWinBackground + AttackAmount > MaxLevelState)
@@ -197,6 +204,7 @@ public class Player : MonoBehaviour
     void Attack_HeaveyMelee(Player Them)
     {
         //Play Aminmation
+        SInherit.ChangeState("Attack2");
         //Calc Attack amount
         float AttackAmount = this.BaseAttack * this.MeleeStrongAttackScale;
 
@@ -230,11 +238,12 @@ public class Player : MonoBehaviour
     void Attack_Ranged(Player Them)
     {
         //Play Aminmation
+        SInherit.ChangeState("Ranged");
         //Calc Attack amount
         float AttackAmount = this.BaseAttack * this.RangeAttackScale;
 
-        if (Them.IsBlocking)
-            AttackAmount *= RangeBlockAmount;
+        //if (Them.IsBlocking)
+        //    AttackAmount *= RangeBlockAmount;
 
         Them.sWinBackground -= AttackAmount;
         if (this.sWinBackground + AttackAmount > MaxLevelState)
@@ -292,6 +301,7 @@ public class Player : MonoBehaviour
         if (!isAttacking)
         {
             isJumping = true;
+            SInherit.ChangeState("Jump");
             int counter = 0;
             float boost = .15f;
 
