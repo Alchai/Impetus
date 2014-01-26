@@ -38,6 +38,7 @@ public class OnMouseDownStuff : MonoBehaviour
 
         // if (!client && name.Contains("Play"))
 
+        currentSelection = 1;
     }
 
     void Update()
@@ -54,6 +55,10 @@ public class OnMouseDownStuff : MonoBehaviour
             }
             if (Mathf.Round(Seconds) < 1)
             {
+                if(client.p1Char == 0)
+                    client.p1Char = GameObject.Find("charone").GetComponent<ButtonSelect>().currentSelection;
+                if(client.p2Char == 0)
+                    client.p2Char = GameObject.Find("charone").GetComponent<ButtonSelect>().currentSelection;
                 Timer.guiText.text = Seconds.ToString("f0");
                 Application.LoadLevel("TestBattle");
             }

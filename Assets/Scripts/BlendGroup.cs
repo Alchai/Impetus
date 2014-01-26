@@ -9,6 +9,7 @@ public class BlendGroup : MonoBehaviour
     private GameObject fader;
     public Texture2D[] textures;
 
+    public float LerpValue = 0.0f;
 
     public void InitializeBlend()
     {
@@ -46,14 +47,35 @@ public class BlendGroup : MonoBehaviour
             index = 3;
         renderer.material.SetTexture("_BlendTex", textures[index]);
 
-        ////float LerpValue = 1.0f - player1.GetWinBackground();
-        ////renderer.material.SetFloat("_LerpValue", LerpValue);
+        // Initial value is set to 0.0 at the beginning of the match
+        // No need to access the player variable
+        renderer.material.SetFloat("_LerpValue", LerpValue);
     }
 
     // Update is called once per frame
+    // BlendGroup will access the variable in the player responsible for handling the blending of both textures (ratio from 0.0 to 1.0)
+    // To have a more drastic change, consider waiting a certain amount of frames before you update the LerpValue
+    // BlendGroup will then assign the variable in the pixel shader each frame
     void Update()
     {
+        // Comment out when attacks are in
+        if (Input.GetKeyDown(KeyCode.O))
+        {
+            LerpValue -= 0.02f;
+            if (LerpValue < 0.0f)
+                LerpValue = 0.0f;
+        }
+        else if (Input.GetKeyDown(KeyCode.P))
+        {
+            LerpValue += 0.02f;
+            if (LerpValue > 1.0f)
+                LerpValue = 1.0f;
+        }
+
+        // Retrieve varaible from the player and ensure the ratio is maintained (0.0 - 1.0, current/max for instance)
         //float LerpValue = 1.0f - player1.GetWinBackground();
-        //renderer.material.SetFloat(_LerpValue, LerpValue);
+
+        // Send value to the shader
+        renderer.material.SetFloat("_LerpValue", LerpValue);
     }
 }
