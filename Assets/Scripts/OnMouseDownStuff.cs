@@ -5,11 +5,11 @@ public class OnMouseDownStuff : MonoBehaviour
 {
     #region Variables
 
-    private float Seconds = 15;
-    public static int NumCharSelected = 0;
-    public static bool ChoiceLock = false;
-    public bool HasLocked = false;
-    public static int currentSelection = 0;
+    private float Seconds = 8;
+    private static int NumCharSelected = 0;
+    private static bool ChoiceLock = false;
+    private bool HasLocked = false;
+    private static int currentSelection = 0;
     private bool joinedlobby = false;
 
     GameObject Timer;
