@@ -27,7 +27,7 @@ public class Player : MonoBehaviour
 
     public Client client;
 
-    public float dashSpeed = .2f;
+    private float dashSpeed = .2f;
     private int dashFrames = 12, FramsForKnockback = 10;
 
     private StatesInherit SInherit;
@@ -128,7 +128,7 @@ public class Player : MonoBehaviour
     private IEnumerator dash()
     {
         isDashing = true;
-        SInherit.ChangeState("Dash");
+        SInherit.ChangeState("Run");
       
         if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, 90f, 0f)) < 150f)
             facingLeft = false;
