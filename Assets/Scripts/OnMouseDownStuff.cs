@@ -32,7 +32,7 @@ public class OnMouseDownStuff : MonoBehaviour
         {
             Characters[i] = GameObject.FindGameObjectWithTag("Character " + (i + 1));
         }
-        renderer.material.color = Color.gray;
+        //renderer.material.color = Color.gray;
         Timer = GameObject.Find("Timer Text");
         LockButton = GameObject.Find("Lock Choices");
 
