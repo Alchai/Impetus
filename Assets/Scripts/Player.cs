@@ -27,8 +27,8 @@ public class Player : MonoBehaviour
 
     public Client client;
 
-    public float dashSpeed = .5f;
-    public int dashFrames = 10, FramsForKnockback = 10;
+    public float dashSpeed = .2f;
+    private int dashFrames = 12, FramsForKnockback = 10;
 
     private StatesInherit SInherit;
 
@@ -38,7 +38,10 @@ public class Player : MonoBehaviour
     {
         feet = transform.FindChild("feet").gameObject;
         head = transform.FindChild("head").gameObject;
+
+        SInherit = GetComponent<StatesInherit>();
         SInherit.ChangeState("Idle");
+
         if (transform.eulerAngles.y == 270 || transform.eulerAngles.y == -90)
             facingLeft = true;
         else
@@ -126,6 +129,7 @@ public class Player : MonoBehaviour
     {
         isDashing = true;
         SInherit.ChangeState("Dash");
+      
         if (Vector3.Distance(transform.eulerAngles, new Vector3(0f, 90f, 0f)) < 150f)
             facingLeft = false;
         else
@@ -136,15 +140,14 @@ public class Player : MonoBehaviour
 
         for (int i = 0; i < dashFrames; i++)
         {
-            if ((float)dashFrames / 2f <= i)
-            {
-                isDashing = false;
-                print("isDashing is false now");
-            }
+            if (isDashing == false)
+                i = dashFrames;
+            
             transform.Translate(new Vector3(dashSpeed, 0f, 0f), Space.World);
 
             yield return new WaitForEndOfFrame();
         }
+        isDashing = false;
     }
 
     public void KnockBack()
@@ -182,22 +185,22 @@ public class Player : MonoBehaviour
         else if (this.sWinBackground + AttackAmount < MaxLevelState)
             this.sWinBackground += AttackAmount;
 
-		//Play sound:
-		switch (this.client.myChar)
-		{
-		case 0:
-			AudioManager.play("Swoosh_Caveman", 1.0f, this.transform.position);
-			break;
-		case 1:
-			AudioManager.play("Swoosh_Future", 1.0f, this.transform.position);
-			break;
-		case 2:
-			AudioManager.play("Swoosh_Spartan", 1.0f, this.transform.position);
-			break;
-		case 3:
-			AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
-			break;
-		}
+        //Play sound:
+        switch (this.client.myChar)
+        {
+            case 0:
+                AudioManager.play("Swoosh_Caveman", 1.0f, this.transform.position);
+                break;
+            case 1:
+                AudioManager.play("Swoosh_Future", 1.0f, this.transform.position);
+                break;
+            case 2:
+                AudioManager.play("Swoosh_Spartan", 1.0f, this.transform.position);
+                break;
+            case 3:
+                AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
+                break;
+        }
 
     }
 
@@ -217,21 +220,21 @@ public class Player : MonoBehaviour
         else if (this.sWinBackground + AttackAmount < MaxLevelState)
             this.sWinBackground += AttackAmount;
 
-		switch (this.client.myChar)
-		{
-		case 0:
-			AudioManager.play("Swoosh_Caveman", 1.0f, this.transform.position);
-			break;
-		case 1:
-			AudioManager.play("Swoosh_Future", 1.0f, this.transform.position);
-			break;
-		case 2:
-			AudioManager.play("Swoosh_Spartan", 1.0f, this.transform.position);
-			break;
-		case 3:
-			AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
-			break;
-		}
+        switch (this.client.myChar)
+        {
+            case 0:
+                AudioManager.play("Swoosh_Caveman", 1.0f, this.transform.position);
+                break;
+            case 1:
+                AudioManager.play("Swoosh_Future", 1.0f, this.transform.position);
+                break;
+            case 2:
+                AudioManager.play("Swoosh_Spartan", 1.0f, this.transform.position);
+                break;
+            case 3:
+                AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
+                break;
+        }
 
     }
 
@@ -250,23 +253,23 @@ public class Player : MonoBehaviour
             this.sWinBackground = MaxLevelState;
         else if (this.sWinBackground + AttackAmount < MaxLevelState)
             this.sWinBackground += AttackAmount;
-		//sound
-		switch (this.client.myChar)
-		{
-		case 0:
-			AudioManager.play("Throw_woosh1", 1.0f, this.transform.position);
-			break;
-		case 1:
-			AudioManager.play("GS_Laser_Shoot14", 1.0f, this.transform.position);
-			break;
-		case 2:
-			//AudioManager.play("GS_Randomizer137", 1.0f, this.transform.position);
-			AudioManager.play("Throw_woosh3", 1.0f, this.transform.position);
-			break;
-		case 3:
-			AudioManager.play("GS_Randomizer63", 1.0f, this.transform.position);
-			break;
-		}
+        //sound
+        switch (this.client.myChar)
+        {
+            case 0:
+                AudioManager.play("Throw_woosh1", 1.0f, this.transform.position);
+                break;
+            case 1:
+                AudioManager.play("GS_Laser_Shoot14", 1.0f, this.transform.position);
+                break;
+            case 2:
+                //AudioManager.play("GS_Randomizer137", 1.0f, this.transform.position);
+                AudioManager.play("Throw_woosh3", 1.0f, this.transform.position);
+                break;
+            case 3:
+                AudioManager.play("GS_Randomizer63", 1.0f, this.transform.position);
+                break;
+        }
     }
 
     public void SetBlocking(bool IsActive)
@@ -287,14 +290,14 @@ public class Player : MonoBehaviour
             StartCoroutine("jump");
     }
 
-	public float GetWinBackground()
-	{
-		return sWinBackground;
-	}
-	public float GetMaxLevelState()
-	{
-		return MaxLevelState;
-	}
+    public float GetWinBackground()
+    {
+        return sWinBackground;
+    }
+    public float GetMaxLevelState()
+    {
+        return MaxLevelState;
+    }
 
     private IEnumerator jump()
     {
