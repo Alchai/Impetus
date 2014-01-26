@@ -162,6 +162,7 @@ public class Server : MonoBehaviour
         {
             if (SID.Equals(s.seshID))
             {
+                print("player " + whichPlayer + " chose char " + whichChar);
 				networkView.RPC("CreateCharacter", s.p1, whichChar, whichPlayer, pos, rot, s.seshID, playerName);
 				networkView.RPC("CreateCharacter", s.p2, whichChar, whichPlayer, pos, rot, s.seshID, playerName);
             }

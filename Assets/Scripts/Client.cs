@@ -73,16 +73,24 @@ public class Client : MonoBehaviour
                     theirPlayer.RightPressed = true;
                     break;
                 case 4:
-                    theirPlayer.Jump();
+                    if (theirPlayer.canJump)
+                        theirPlayer.Jump();
                     break;
                 case 5:
                     if (theirPlayer.L_Attacking)
+                    {
                         theirPlayer.Attack_HeaveyMelee(theirPlayer);
+                        print("doing heavy attack");
+                    }
                     else
+                    {
                         theirPlayer.Attack_LightMelee(theirPlayer);
+                        print("doing light attack");
+                    }
                     break;
                 case 6:
-                    theirPlayer.Dash();
+                    if (!theirPlayer.isDashing)
+                        theirPlayer.Dash();
                     break;
                 case 7:
                     //ranged here
@@ -125,6 +133,7 @@ public class Client : MonoBehaviour
         hisChar = opponentCharChoice;
         playerNum = whichPlayerAmI;
 
+        print("mychar is: " + myChar);
         Application.LoadLevel("CharacterSelect");
     }
 
@@ -168,6 +177,8 @@ public class Client : MonoBehaviour
 
         }
 
+        print("player " + whichPlayer + " wants to create char: " + whichChar);
+     
         if (whichPlayer == playerNum)
         {
             newobj.AddComponent<InputManager>();
@@ -221,22 +232,25 @@ public class Client : MonoBehaviour
         {
             mybutton.transform.position = GameObject.Find("topleftplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 1;
-
+            myChar = 1;
         }
         else if (who.Contains("2") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 2)
         {
             mybutton.transform.position = GameObject.Find("toprightplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 2;
+            myChar = 2;
         }
         else if (who.Contains("3") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 3)
         {
             mybutton.transform.position = GameObject.Find("bottomleftplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 3;
+            myChar = 3;
         }
         else if (who.Contains("4") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 4)
         {
             mybutton.transform.position = GameObject.Find("bottomrightplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 4;
+            myChar = 4;
         }
     }
 
