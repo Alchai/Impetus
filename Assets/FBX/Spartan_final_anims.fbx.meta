@@ -1,0 +1,1362 @@
+fileFormatVersion: 2
+guid: 21e0b274d981fab4d9561ccafef3a42b
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Spartan_Rig:Bind_J
+    100004: Spartan_Rig:Bind_J1
+    100006: Spartan_Rig:Bind_J10
+    100008: Spartan_Rig:Bind_J11
+    100010: Spartan_Rig:Bind_J12
+    100012: Spartan_Rig:Bind_J13
+    100014: Spartan_Rig:Bind_J14
+    100016: Spartan_Rig:Bind_J15
+    100018: Spartan_Rig:Bind_J16
+    100020: Spartan_Rig:Bind_J17
+    100022: Spartan_Rig:Bind_J18
+    100024: Spartan_Rig:Bind_J19
+    100026: Spartan_Rig:Bind_J2
+    100028: Spartan_Rig:Bind_J20
+    100030: Spartan_Rig:Bind_J21
+    100032: Spartan_Rig:Bind_J22
+    100034: Spartan_Rig:Bind_J23
+    100036: Spartan_Rig:Bind_J24
+    100038: Spartan_Rig:Bind_J25
+    100040: Spartan_Rig:Bind_J26
+    100042: Spartan_Rig:Bind_J27
+    100044: Spartan_Rig:Bind_J28
+    100046: Spartan_Rig:Bind_J29
+    100048: Spartan_Rig:Bind_J3
+    100050: Spartan_Rig:Bind_J30
+    100052: Spartan_Rig:Bind_J31
+    100054: Spartan_Rig:Bind_J32
+    100056: Spartan_Rig:Bind_J33
+    100058: Spartan_Rig:Bind_J34
+    100060: Spartan_Rig:Bind_J35
+    100062: Spartan_Rig:Bind_J36
+    100064: Spartan_Rig:Bind_J37
+    100066: Spartan_Rig:Bind_J38
+    100068: Spartan_Rig:Bind_J39
+    100070: Spartan_Rig:Bind_J4
+    100072: Spartan_Rig:Bind_J40
+    100074: Spartan_Rig:Bind_J41
+    100076: Spartan_Rig:Bind_J42
+    100078: Spartan_Rig:Bind_J43
+    100080: Spartan_Rig:Bind_J44
+    100082: Spartan_Rig:Bind_J45
+    100084: Spartan_Rig:Bind_J46
+    100086: Spartan_Rig:Bind_J47
+    100088: Spartan_Rig:Bind_J48
+    100090: Spartan_Rig:Bind_J49
+    100092: Spartan_Rig:Bind_J5
+    100094: Spartan_Rig:Bind_J6
+    100096: Spartan_Rig:Bind_J7
+    100098: Spartan_Rig:Bind_J8
+    100100: Spartan_Rig:Bind_J9
+    100102: Spartan_Rig:joint22
+    100104: Spartan_Rig:joint24
+    100106: Spartan_Rig:polySurface1
+    100108: Spartan_Rig:polySurface10
+    100110: Spartan_Rig:polySurface2
+    100112: Spartan_Rig:polySurface7
+    100114: Spartan_Rig:polySurface8
+    100116: Spartan_Rig:polySurface9
+    100118: Spartan_Rig:shield_bind_J
+    100120: Spartan_Rig:spartan_Cape
+    100122: Spartan_Rig:spartan_Helmet
+    100124: Spartan_Rig:spartan_ManSkirt
+    100126: Spartan_Rig:Spartan_Model
+    100128: Spartan_Rig:spartan_Shield
+    100130: Spartan_Rig:spartan_ShoulderPad
+    100132: Spartan_Rig:spartan_Spear
+    100134: Spartan_Rig:spear_bind_j
+    400000: //RootNode
+    400002: Spartan_Rig:Bind_J
+    400004: Spartan_Rig:Bind_J1
+    400006: Spartan_Rig:Bind_J10
+    400008: Spartan_Rig:Bind_J11
+    400010: Spartan_Rig:Bind_J12
+    400012: Spartan_Rig:Bind_J13
+    400014: Spartan_Rig:Bind_J14
+    400016: Spartan_Rig:Bind_J15
+    400018: Spartan_Rig:Bind_J16
+    400020: Spartan_Rig:Bind_J17
+    400022: Spartan_Rig:Bind_J18
+    400024: Spartan_Rig:Bind_J19
+    400026: Spartan_Rig:Bind_J2
+    400028: Spartan_Rig:Bind_J20
+    400030: Spartan_Rig:Bind_J21
+    400032: Spartan_Rig:Bind_J22
+    400034: Spartan_Rig:Bind_J23
+    400036: Spartan_Rig:Bind_J24
+    400038: Spartan_Rig:Bind_J25
+    400040: Spartan_Rig:Bind_J26
+    400042: Spartan_Rig:Bind_J27
+    400044: Spartan_Rig:Bind_J28
+    400046: Spartan_Rig:Bind_J29
+    400048: Spartan_Rig:Bind_J3
+    400050: Spartan_Rig:Bind_J30
+    400052: Spartan_Rig:Bind_J31
+    400054: Spartan_Rig:Bind_J32
+    400056: Spartan_Rig:Bind_J33
+    400058: Spartan_Rig:Bind_J34
+    400060: Spartan_Rig:Bind_J35
+    400062: Spartan_Rig:Bind_J36
+    400064: Spartan_Rig:Bind_J37
+    400066: Spartan_Rig:Bind_J38
+    400068: Spartan_Rig:Bind_J39
+    400070: Spartan_Rig:Bind_J4
+    400072: Spartan_Rig:Bind_J40
+    400074: Spartan_Rig:Bind_J41
+    400076: Spartan_Rig:Bind_J42
+    400078: Spartan_Rig:Bind_J43
+    400080: Spartan_Rig:Bind_J44
+    400082: Spartan_Rig:Bind_J45
+    400084: Spartan_Rig:Bind_J46
+    400086: Spartan_Rig:Bind_J47
+    400088: Spartan_Rig:Bind_J48
+    400090: Spartan_Rig:Bind_J49
+    400092: Spartan_Rig:Bind_J5
+    400094: Spartan_Rig:Bind_J6
+    400096: Spartan_Rig:Bind_J7
+    400098: Spartan_Rig:Bind_J8
+    400100: Spartan_Rig:Bind_J9
+    400102: Spartan_Rig:joint22
+    400104: Spartan_Rig:joint24
+    400106: Spartan_Rig:polySurface1
+    400108: Spartan_Rig:polySurface10
+    400110: Spartan_Rig:polySurface2
+    400112: Spartan_Rig:polySurface7
+    400114: Spartan_Rig:polySurface8
+    400116: Spartan_Rig:polySurface9
+    400118: Spartan_Rig:shield_bind_J
+    400120: Spartan_Rig:spartan_Cape
+    400122: Spartan_Rig:spartan_Helmet
+    400124: Spartan_Rig:spartan_ManSkirt
+    400126: Spartan_Rig:Spartan_Model
+    400128: Spartan_Rig:spartan_Shield
+    400130: Spartan_Rig:spartan_ShoulderPad
+    400132: Spartan_Rig:spartan_Spear
+    400134: Spartan_Rig:spear_bind_j
+    4300000: Spartan_Rig:Spartan_Model
+    4300002: Spartan_Rig:spartan_ShoulderPad
+    4300004: Spartan_Rig:spartan_Shield
+    4300006: Spartan_Rig:spartan_Spear
+    4300008: Spartan_Rig:spartan_ManSkirt
+    4300010: Spartan_Rig:spartan_Cape
+    4300012: Spartan_Rig:spartan_Helmet
+    4300014: Spartan_Rig:polySurface1
+    4300016: Spartan_Rig:polySurface2
+    4300018: Spartan_Rig:polySurface7
+    4300020: Spartan_Rig:polySurface8
+    4300022: Spartan_Rig:polySurface10
+    4300024: Spartan_Rig:polySurface9
+    7400000: Run
+    7400002: Idle
+    7400004: Jump
+    7400006: Hit
+    7400008: Attack1
+    7400010: Attack2
+    7400012: Victory
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Spartan_Rig:polySurface1
+    13700002: Spartan_Rig:polySurface10
+    13700004: Spartan_Rig:polySurface2
+    13700006: Spartan_Rig:polySurface7
+    13700008: Spartan_Rig:polySurface8
+    13700010: Spartan_Rig:polySurface9
+    13700012: Spartan_Rig:spartan_Cape
+    13700014: Spartan_Rig:spartan_Helmet
+    13700016: Spartan_Rig:spartan_ManSkirt
+    13700018: Spartan_Rig:Spartan_Model
+    13700020: Spartan_Rig:spartan_Shield
+    13700022: Spartan_Rig:spartan_ShoulderPad
+    13700024: Spartan_Rig:spartan_Spear
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 4
+      lastFrame: 30
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spartan_Rig:Bind_J
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5/Spartan_Rig:Bind_J6
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12/Spartan_Rig:Bind_J13
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19/Spartan_Rig:Bind_J20
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36/Spartan_Rig:Bind_J37
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42/Spartan_Rig:Bind_J43
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48/Spartan_Rig:Bind_J49
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24/Spartan_Rig:Bind_J25
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29/Spartan_Rig:Bind_J30
+        weight: 1
+      - path: Spartan_Rig:polySurface1
+        weight: 1
+      - path: Spartan_Rig:polySurface2
+        weight: 1
+      - path: Spartan_Rig:polySurface7
+        weight: 1
+      - path: Spartan_Rig:polySurface8
+        weight: 1
+      - path: Spartan_Rig:polySurface9
+        weight: 1
+      - path: Spartan_Rig:polySurface10
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J/Spartan_Rig:joint24
+        weight: 1
+      - path: Spartan_Rig:spartan_Cape
+        weight: 1
+      - path: Spartan_Rig:spartan_Helmet
+        weight: 1
+      - path: Spartan_Rig:spartan_ManSkirt
+        weight: 1
+      - path: Spartan_Rig:Spartan_Model
+        weight: 1
+      - path: Spartan_Rig:spartan_Shield
+        weight: 1
+      - path: Spartan_Rig:spartan_ShoulderPad
+        weight: 1
+      - path: Spartan_Rig:spartan_Spear
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j/Spartan_Rig:joint22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 37
+      lastFrame: 59
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spartan_Rig:Bind_J
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5/Spartan_Rig:Bind_J6
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12/Spartan_Rig:Bind_J13
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19/Spartan_Rig:Bind_J20
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36/Spartan_Rig:Bind_J37
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42/Spartan_Rig:Bind_J43
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48/Spartan_Rig:Bind_J49
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24/Spartan_Rig:Bind_J25
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29/Spartan_Rig:Bind_J30
+        weight: 1
+      - path: Spartan_Rig:polySurface1
+        weight: 1
+      - path: Spartan_Rig:polySurface2
+        weight: 1
+      - path: Spartan_Rig:polySurface7
+        weight: 1
+      - path: Spartan_Rig:polySurface8
+        weight: 1
+      - path: Spartan_Rig:polySurface9
+        weight: 1
+      - path: Spartan_Rig:polySurface10
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J/Spartan_Rig:joint24
+        weight: 1
+      - path: Spartan_Rig:spartan_Cape
+        weight: 1
+      - path: Spartan_Rig:spartan_Helmet
+        weight: 1
+      - path: Spartan_Rig:spartan_ManSkirt
+        weight: 1
+      - path: Spartan_Rig:Spartan_Model
+        weight: 1
+      - path: Spartan_Rig:spartan_Shield
+        weight: 1
+      - path: Spartan_Rig:spartan_ShoulderPad
+        weight: 1
+      - path: Spartan_Rig:spartan_Spear
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j/Spartan_Rig:joint22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 63
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spartan_Rig:Bind_J
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5/Spartan_Rig:Bind_J6
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12/Spartan_Rig:Bind_J13
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19/Spartan_Rig:Bind_J20
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36/Spartan_Rig:Bind_J37
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42/Spartan_Rig:Bind_J43
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48/Spartan_Rig:Bind_J49
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24/Spartan_Rig:Bind_J25
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29/Spartan_Rig:Bind_J30
+        weight: 1
+      - path: Spartan_Rig:polySurface1
+        weight: 1
+      - path: Spartan_Rig:polySurface2
+        weight: 1
+      - path: Spartan_Rig:polySurface7
+        weight: 1
+      - path: Spartan_Rig:polySurface8
+        weight: 1
+      - path: Spartan_Rig:polySurface9
+        weight: 1
+      - path: Spartan_Rig:polySurface10
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J/Spartan_Rig:joint24
+        weight: 1
+      - path: Spartan_Rig:spartan_Cape
+        weight: 1
+      - path: Spartan_Rig:spartan_Helmet
+        weight: 1
+      - path: Spartan_Rig:spartan_ManSkirt
+        weight: 1
+      - path: Spartan_Rig:Spartan_Model
+        weight: 1
+      - path: Spartan_Rig:spartan_Shield
+        weight: 1
+      - path: Spartan_Rig:spartan_ShoulderPad
+        weight: 1
+      - path: Spartan_Rig:spartan_Spear
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j/Spartan_Rig:joint22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hit
+      takeName: Take 001
+      firstFrame: 96
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spartan_Rig:Bind_J
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5/Spartan_Rig:Bind_J6
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12/Spartan_Rig:Bind_J13
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19/Spartan_Rig:Bind_J20
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36/Spartan_Rig:Bind_J37
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42/Spartan_Rig:Bind_J43
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48/Spartan_Rig:Bind_J49
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24/Spartan_Rig:Bind_J25
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29/Spartan_Rig:Bind_J30
+        weight: 1
+      - path: Spartan_Rig:polySurface1
+        weight: 1
+      - path: Spartan_Rig:polySurface2
+        weight: 1
+      - path: Spartan_Rig:polySurface7
+        weight: 1
+      - path: Spartan_Rig:polySurface8
+        weight: 1
+      - path: Spartan_Rig:polySurface9
+        weight: 1
+      - path: Spartan_Rig:polySurface10
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J/Spartan_Rig:joint24
+        weight: 1
+      - path: Spartan_Rig:spartan_Cape
+        weight: 1
+      - path: Spartan_Rig:spartan_Helmet
+        weight: 1
+      - path: Spartan_Rig:spartan_ManSkirt
+        weight: 1
+      - path: Spartan_Rig:Spartan_Model
+        weight: 1
+      - path: Spartan_Rig:spartan_Shield
+        weight: 1
+      - path: Spartan_Rig:spartan_ShoulderPad
+        weight: 1
+      - path: Spartan_Rig:spartan_Spear
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j/Spartan_Rig:joint22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack1
+      takeName: Take 001
+      firstFrame: 113
+      lastFrame: 137
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spartan_Rig:Bind_J
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5/Spartan_Rig:Bind_J6
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12/Spartan_Rig:Bind_J13
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19/Spartan_Rig:Bind_J20
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36/Spartan_Rig:Bind_J37
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42/Spartan_Rig:Bind_J43
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48/Spartan_Rig:Bind_J49
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24/Spartan_Rig:Bind_J25
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29/Spartan_Rig:Bind_J30
+        weight: 1
+      - path: Spartan_Rig:polySurface1
+        weight: 1
+      - path: Spartan_Rig:polySurface2
+        weight: 1
+      - path: Spartan_Rig:polySurface7
+        weight: 1
+      - path: Spartan_Rig:polySurface8
+        weight: 1
+      - path: Spartan_Rig:polySurface9
+        weight: 1
+      - path: Spartan_Rig:polySurface10
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J/Spartan_Rig:joint24
+        weight: 1
+      - path: Spartan_Rig:spartan_Cape
+        weight: 1
+      - path: Spartan_Rig:spartan_Helmet
+        weight: 1
+      - path: Spartan_Rig:spartan_ManSkirt
+        weight: 1
+      - path: Spartan_Rig:Spartan_Model
+        weight: 1
+      - path: Spartan_Rig:spartan_Shield
+        weight: 1
+      - path: Spartan_Rig:spartan_ShoulderPad
+        weight: 1
+      - path: Spartan_Rig:spartan_Spear
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j/Spartan_Rig:joint22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Attack2
+      takeName: Take 001
+      firstFrame: 141
+      lastFrame: 166
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spartan_Rig:Bind_J
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5/Spartan_Rig:Bind_J6
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12/Spartan_Rig:Bind_J13
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19/Spartan_Rig:Bind_J20
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36/Spartan_Rig:Bind_J37
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42/Spartan_Rig:Bind_J43
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48/Spartan_Rig:Bind_J49
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24/Spartan_Rig:Bind_J25
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29/Spartan_Rig:Bind_J30
+        weight: 1
+      - path: Spartan_Rig:polySurface1
+        weight: 1
+      - path: Spartan_Rig:polySurface2
+        weight: 1
+      - path: Spartan_Rig:polySurface7
+        weight: 1
+      - path: Spartan_Rig:polySurface8
+        weight: 1
+      - path: Spartan_Rig:polySurface9
+        weight: 1
+      - path: Spartan_Rig:polySurface10
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J/Spartan_Rig:joint24
+        weight: 1
+      - path: Spartan_Rig:spartan_Cape
+        weight: 1
+      - path: Spartan_Rig:spartan_Helmet
+        weight: 1
+      - path: Spartan_Rig:spartan_ManSkirt
+        weight: 1
+      - path: Spartan_Rig:Spartan_Model
+        weight: 1
+      - path: Spartan_Rig:spartan_Shield
+        weight: 1
+      - path: Spartan_Rig:spartan_ShoulderPad
+        weight: 1
+      - path: Spartan_Rig:spartan_Spear
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j/Spartan_Rig:joint22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Victory
+      takeName: Take 001
+      firstFrame: 170
+      lastFrame: 216
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Spartan_Rig:Bind_J
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J4/Spartan_Rig:Bind_J5/Spartan_Rig:Bind_J6
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J7/Spartan_Rig:Bind_J8/Spartan_Rig:Bind_J9/Spartan_Rig:Bind_J10/Spartan_Rig:Bind_J11/Spartan_Rig:Bind_J12/Spartan_Rig:Bind_J13
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J14/Spartan_Rig:Bind_J15/Spartan_Rig:Bind_J16/Spartan_Rig:Bind_J17/Spartan_Rig:Bind_J18/Spartan_Rig:Bind_J19/Spartan_Rig:Bind_J20
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J32/Spartan_Rig:Bind_J33/Spartan_Rig:Bind_J34/Spartan_Rig:Bind_J35/Spartan_Rig:Bind_J36/Spartan_Rig:Bind_J37
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J38/Spartan_Rig:Bind_J39/Spartan_Rig:Bind_J40/Spartan_Rig:Bind_J41/Spartan_Rig:Bind_J42/Spartan_Rig:Bind_J43
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J1/Spartan_Rig:Bind_J2/Spartan_Rig:Bind_J3/Spartan_Rig:Bind_J31/Spartan_Rig:Bind_J44/Spartan_Rig:Bind_J45/Spartan_Rig:Bind_J46/Spartan_Rig:Bind_J47/Spartan_Rig:Bind_J48/Spartan_Rig:Bind_J49
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J21/Spartan_Rig:Bind_J22/Spartan_Rig:Bind_J23/Spartan_Rig:Bind_J24/Spartan_Rig:Bind_J25
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29
+        weight: 1
+      - path: Spartan_Rig:Bind_J/Spartan_Rig:Bind_J26/Spartan_Rig:Bind_J27/Spartan_Rig:Bind_J28/Spartan_Rig:Bind_J29/Spartan_Rig:Bind_J30
+        weight: 1
+      - path: Spartan_Rig:polySurface1
+        weight: 1
+      - path: Spartan_Rig:polySurface2
+        weight: 1
+      - path: Spartan_Rig:polySurface7
+        weight: 1
+      - path: Spartan_Rig:polySurface8
+        weight: 1
+      - path: Spartan_Rig:polySurface9
+        weight: 1
+      - path: Spartan_Rig:polySurface10
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J
+        weight: 1
+      - path: Spartan_Rig:shield_bind_J/Spartan_Rig:joint24
+        weight: 1
+      - path: Spartan_Rig:spartan_Cape
+        weight: 1
+      - path: Spartan_Rig:spartan_Helmet
+        weight: 1
+      - path: Spartan_Rig:spartan_ManSkirt
+        weight: 1
+      - path: Spartan_Rig:Spartan_Model
+        weight: 1
+      - path: Spartan_Rig:spartan_Shield
+        weight: 1
+      - path: Spartan_Rig:spartan_ShoulderPad
+        weight: 1
+      - path: Spartan_Rig:spartan_Spear
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j
+        weight: 1
+      - path: Spartan_Rig:spear_bind_j/Spartan_Rig:joint22
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
