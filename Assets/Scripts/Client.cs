@@ -56,6 +56,14 @@ public class Client : MonoBehaviour
     public void SendKnockback(int sID, int playerNum)
     {
         me.GetComponent<Player>().KnockBack();
+
+        them.GetComponent<Player>().WinLoss_Ratio += 0.1f;
+
+        if (them.GetComponent<Player>().WinLoss_Ratio > 1.0f)
+            them.GetComponent<Player>().WinLoss_Ratio = 1.0f;
+
+        // them.transform.FindChild("3DText").GetComponent<TextMesh>().text = them.GetComponent<Player>().WinLoss_Ratio.ToString();
+
         print("got knockback request");
     }
 
@@ -132,7 +140,7 @@ public class Client : MonoBehaviour
         }
     }
 
-    public void EndGame()
+    public void EndGame(int mySID)
     {
         print("end game called locally in client");
         networkView.RPC("EndTheGame", RPCMode.Server, mySID);
@@ -142,8 +150,12 @@ public class Client : MonoBehaviour
     public void EndTheGame(int mysID)
     {
         print("loading level...");
-        Application.LoadLevel("TestMenu");
-        print("destroying client...");
+
+        if (me.GetComponent<Player>().WinLoss_Ratio > 0f)
+            Application.LoadLevel("Victory");
+        else
+            Application.LoadLevel("Defeat");
+
         GameObject.Destroy(gameObject);
     }
 
@@ -175,7 +187,8 @@ public class Client : MonoBehaviour
             currentPlay = p1Play;
         else
             currentPlay = p2Play;
-        //  print("At creating of players p1 = " + p1Play + "p2= " + p2Play);
+       
+       
 
         switch (currentPlay)
         {
@@ -254,6 +267,7 @@ public class Client : MonoBehaviour
             mybutton = GameObject.Find("chartwo");
             theirbutton = GameObject.Find("charone");
         }
+
         if (who.Contains("1") && theirbutton.GetComponent<ButtonSelect>().currentSelection != 1)
         {
             mybutton.transform.position = GameObject.Find("topleftplayer").transform.position;
@@ -274,8 +288,12 @@ public class Client : MonoBehaviour
             mybutton.transform.position = GameObject.Find("bottomrightplayer").transform.position;
             mybutton.GetComponent<ButtonSelect>().currentSelection = 4;
         }
+
+
         p1Char = mybutton.GetComponent<ButtonSelect>().currentSelection;
         p2Char = theirbutton.GetComponent<ButtonSelect>().currentSelection;
+
+       
     }
 
     void OnGUI()

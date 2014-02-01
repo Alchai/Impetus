@@ -26,6 +26,8 @@ public class HitBoxLogic : MonoBehaviour
 
     }
 
+
+
     void OnTriggerStay(Collider co)
     {
         if (co.transform.tag.Contains("Hurt") && !co.transform.name.Contains(me.ToString()) && mine.GetComponent<Player>().isAttacking)
@@ -36,9 +38,9 @@ public class HitBoxLogic : MonoBehaviour
             if (mine.GetComponent<Player>().WinLoss_Ratio > 1.0f)
                 mine.GetComponent<Player>().WinLoss_Ratio = 1.0f;
             
-            GameObject.FindGameObjectWithTag("Text" + me.ToString()).GetComponent<TextMesh>().text = mine.GetComponent<Player>().WinLoss_Ratio.ToString();
+          //  GameObject.FindGameObjectWithTag("Text" + me.ToString()).GetComponent<TextMesh>().text = mine.GetComponent<Player>().WinLoss_Ratio.ToString();
 
-            print(mine.GetComponent<Player>().WinLoss_Ratio);
+        //    print("gained health. my health is now: "+mine.GetComponent<Player>().WinLoss_Ratio);
 
             try
             {

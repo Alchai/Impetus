@@ -166,16 +166,13 @@ public class Player : MonoBehaviour
 
     public void KnockBack()
     {
-        print("starting local knockback for " + name);
         WinLoss_Ratio -= 0.1f;
-       
-        print("winloss ratio is now: " + WinLoss_Ratio);
-        transform.FindChild("3DText").GetComponent<TextMesh>().text = WinLoss_Ratio.ToString();
+
 
         if (WinLoss_Ratio < 0.0f)
         {
             WinLoss_Ratio = 0.0f;
-            client.EndGame();
+            client.EndGame(client.mySID);
         }
 
         StopCoroutine("knockBack");
@@ -184,7 +181,7 @@ public class Player : MonoBehaviour
 
     private IEnumerator knockBack()
     {
-        print("starting local knockback for "+name);
+        print("starting local knockback for " + name);
         SInherit.ChangeState("Hit");
         GameObject go = GameObject.Instantiate(smackParticles, transform.position, Quaternion.identity) as GameObject;
         go.transform.parent = transform;
@@ -361,7 +358,11 @@ public class Player : MonoBehaviour
     public void Jump()
     {
         if (canJump && !isAttacking)
+        {
+            StopCoroutine("jump");
             StartCoroutine("jump");
+
+        }
     }
 
     public float GetWinBackground()
@@ -377,6 +378,7 @@ public class Player : MonoBehaviour
     {
         if (!isAttacking)
         {
+
             isJumping = true;
             SInherit.ChangeState("Jump");
             int counter = 0;
@@ -384,8 +386,11 @@ public class Player : MonoBehaviour
 
             while (counter < jumpFrames)
             {
+                print("jumpframe");
                 transform.Translate(0f, fallspeed * 1.4f + boost, 0f);
                 boost -= .01f;
+                if (boost < 0f)
+                    boost = 0f;
                 yield return new WaitForEndOfFrame();
                 counter++;
             }

@@ -76,7 +76,7 @@ public class OnMouseDownStuff : MonoBehaviour
 
         client.networkView.RPC("SelectCharacter", RPCMode.Server, who, client.mySID, p1_p2);
 
-        if (who == "Character 1" && ChoiceLock == false)
+        if (who == "Character 1")
         {
             currentSelection = 1;
             NumCharSelected++;
@@ -96,15 +96,7 @@ public class OnMouseDownStuff : MonoBehaviour
             currentSelection = 4;
             NumCharSelected++;
         }
-        else if (who == "Lock Choices")
-        {
-            if (ChoiceLock == false)
-            {
-                ChoiceLock = true;
-            }
-            else
-                ChoiceLock = false;
-        }
+       
 
 
     }
