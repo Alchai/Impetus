@@ -17,7 +17,7 @@ public class Player : MonoBehaviour
     public bool IsBlocking, IsMovingLeft, IsMovingRight, IsAirborne, canRight = true, canLeft = true,
         applyGravity = true, canJump = false, isJumping = false, facingLeft = false, isHit = false, L_Attacking = false, H_Attacking = false;
 
-    public int FramesForKnockback = 10;
+    public int FramesForKnockback = 15;
 
     //CHANGE THESE VARIABLES WHEN THE BUTTONS ARE\ARENT PRESSED 
     public bool LeftPressed = false, RightPressed = false, JumpPressed = false, isDashing = false, isAttacking = false;
@@ -207,9 +207,9 @@ public class Player : MonoBehaviour
         float dist = 0f;
 
         if (noob > 0)
-            dist = -.2f;
+            dist = -.35f;
         else
-            dist = .2f;
+            dist = .35f;
 
         if (client.me == gameObject)
             dist *= -1f;

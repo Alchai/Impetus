@@ -25,7 +25,8 @@ public class Client : MonoBehaviour
     {
         CharUserName = SystemInfo.deviceName;
         //Network.Connect("72.238.29.102", 843);
-        Network.Connect("localhost", 843);
+        //Network.Connect("localhost", 843);
+        Network.Connect("192.168.1.174", 843);
         DontDestroyOnLoad(gameObject);
 
         Application.targetFrameRate = 60;
@@ -61,8 +62,6 @@ public class Client : MonoBehaviour
 
         if (them.GetComponent<Player>().WinLoss_Ratio > 1.0f)
             them.GetComponent<Player>().WinLoss_Ratio = 1.0f;
-
-        // them.transform.FindChild("3DText").GetComponent<TextMesh>().text = them.GetComponent<Player>().WinLoss_Ratio.ToString();
 
         print("got knockback request");
     }
@@ -183,12 +182,12 @@ public class Client : MonoBehaviour
         GameObject newobj = char1;
         int currentPlay = 0;
 
-        if (whichPlayer == 1)
+        if (whichPlayer != 1)
             currentPlay = p1Play;
         else
             currentPlay = p2Play;
-       
-       
+
+
 
         switch (currentPlay)
         {
@@ -293,7 +292,7 @@ public class Client : MonoBehaviour
         p1Char = mybutton.GetComponent<ButtonSelect>().currentSelection;
         p2Char = theirbutton.GetComponent<ButtonSelect>().currentSelection;
 
-       
+
     }
 
     void OnGUI()
