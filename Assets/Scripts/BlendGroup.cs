@@ -3,17 +3,14 @@ using System.Collections;
 
 public class BlendGroup : MonoBehaviour
 {
-
     private Player player1;
     private Player player2;
     private GameObject fader;
     public Texture2D[] textures;
-
     public float LerpValue = 1.0f;
 
     public void InitializeBlend()
     {
-
         fader = GameObject.Find("Fader");
 
         if (name.Contains("SM_Left_Platform"))
@@ -23,7 +20,6 @@ public class BlendGroup : MonoBehaviour
         player1 = GameObject.Find("me").GetComponent<Player>();
         player2 = GameObject.Find("them").GetComponent<Player>();
         int index = 0;
-
 
         // Initialize the main texture for each child to the texture relative to the character
         if (player1.tag == "Character 1")
@@ -43,6 +39,6 @@ public class BlendGroup : MonoBehaviour
     // BlendGroup will then assign the variable in the pixel shader each frame
     void Update()
     {
-        
+
     }
 }

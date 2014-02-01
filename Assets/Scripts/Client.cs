@@ -205,8 +205,6 @@ public class Client : MonoBehaviour
 
         }
 
-        // print("player " + whichPlayer + " wants to create char: " + whichChar);
-
         if (whichPlayer == playerNum)
         {
             newobj.AddComponent<InputManager>();
