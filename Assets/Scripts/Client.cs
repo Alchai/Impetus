@@ -182,12 +182,10 @@ public class Client : MonoBehaviour
         GameObject newobj = char1;
         int currentPlay = 0;
 
-        if (whichPlayer == 1)
+        if (whichPlayer != 1)
             currentPlay = p1Play;
         else
             currentPlay = p2Play;
-
-
 
         switch (currentPlay)
         {
@@ -220,11 +218,8 @@ public class Client : MonoBehaviour
         if (whichPlayer != playerNum)
         {
             newobj.AddComponent<InputManager>();
-            //newobj.AddComponent<Player>();
             newobj.name = "me";
             me = newobj;
-            //print(me);
-            //print(CharUserName);
             me.transform.FindChild("3DText").GetComponent<TextMesh>().text = CharUserName;
             foreach (BlendGroup bg in GameObject.FindObjectsOfType<BlendGroup>())
             {
