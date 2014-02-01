@@ -148,9 +148,9 @@ public class Client : MonoBehaviour
     [RPC]
     public void EndTheGame(int mysID)
     {
-        print("loading level...");
+        print("deciding if i should win. my winloss: " + me.GetComponent<Player>().WinLoss_Ratio);
 
-        if (me.GetComponent<Player>().WinLoss_Ratio > 0f)
+        if (me.GetComponent<Player>().WinLoss_Ratio > 0.11f)
             Application.LoadLevel("Victory");
         else
             Application.LoadLevel("Defeat");
@@ -182,7 +182,7 @@ public class Client : MonoBehaviour
         GameObject newobj = char1;
         int currentPlay = 0;
 
-        if (whichPlayer != 1)
+        if (whichPlayer == 1)
             currentPlay = p1Play;
         else
             currentPlay = p2Play;
@@ -217,7 +217,7 @@ public class Client : MonoBehaviour
 
         }
 
-        if (whichPlayer == playerNum)
+        if (whichPlayer != playerNum)
         {
             newobj.AddComponent<InputManager>();
             //newobj.AddComponent<Player>();

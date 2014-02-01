@@ -22,6 +22,10 @@ public class BattleLogic : MonoBehaviour
             rotOffset = new Vector3(0f, 90f, 0f);
             posOffset = new Vector3(-10f, 0f, 0f);
         }
+       
+        print("p1char: " + client.p1Char);
+        print("p2char: " + client.p2Char);
+
         client.networkView.RPC("CreateCharacter", RPCMode.Server, client.p1Char, client.p2Char, client.playerNum, posOffset, rotOffset, client.mySID, client.CharUserName);
     }
 }
