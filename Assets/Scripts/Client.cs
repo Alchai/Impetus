@@ -24,8 +24,8 @@ public class Client : MonoBehaviour
     void Start()
     {
         CharUserName = SystemInfo.deviceName;
-        Network.Connect("72.238.29.102", 843);
-        //Network.Connect("localhost", 843);
+        //Network.Connect("72.238.29.102", 843);
+        Network.Connect("localhost", 843);
         DontDestroyOnLoad(gameObject);
 
         Application.targetFrameRate = 60;
@@ -50,6 +50,13 @@ public class Client : MonoBehaviour
             yield return new WaitForEndOfFrame();
 
         StartCoroutine(speedTick());
+    }
+
+    [RPC]
+    public void SendKnockback(int sID, int playerNum)
+    {
+        me.GetComponent<Player>().KnockBack();
+        print("got knockback request");
     }
 
     [RPC]

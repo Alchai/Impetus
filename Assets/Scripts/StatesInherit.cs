@@ -122,7 +122,7 @@ public class StatesInherit : MonoBehaviour
             }
             catch
             {
-                print("probably had null");
+                
             }
         }
 

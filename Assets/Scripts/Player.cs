@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
         RangeBlockAmount = 0.35f, LightMBlockAmount = 0.45f, HeavyMBlockAmount = 0.65f;
 
     private float sWinBackground, sJumpForce, sJumpHeight,
-       sMoveSpeed, runSpeed = .115f, fallspeed = .2f, gravityBoost = 0f;
+       sMoveSpeed, runSpeed = .2f, fallspeed = .2f, gravityBoost = 0f;
     public float WinLoss_Ratio = 1f;
     public float RangeAttackScale = 1.0f, MeleeLightAttackScale = 1.0f, MeleeStrongAttackScale = 1.0f;
     private int BaseAttack, BaseDefense, jumpFrames = 25;
@@ -80,25 +80,25 @@ public class Player : MonoBehaviour
         canLeft = true;
         canRight = true;
 
-        ray = Physics.RaycastAll(head.transform.position, Vector3.right, runSpeed * 3f);
+        ray = Physics.RaycastAll(head.transform.position, Vector3.left, runSpeed * 3f);
 
         for (int i = 0; i < ray.Length; i++)
             if (ray[i].transform.tag == "Wall")
                 canRight = false;
 
-        ray = Physics.RaycastAll(head.transform.position, Vector3.left, runSpeed * 3f);
+        ray = Physics.RaycastAll(head.transform.position, Vector3.right, runSpeed * 3f);
 
         for (int i = 0; i < ray.Length; i++)
             if (ray[i].transform.tag == "Wall")
                 canLeft = false;
 
-        ray = Physics.RaycastAll(feet.transform.position, Vector3.right, runSpeed * 3f);
+        ray = Physics.RaycastAll(feet.transform.position, Vector3.left, runSpeed * 3f);
 
         for (int i = 0; i < ray.Length; i++)
             if (ray[i].transform.tag == "Wall")
                 canRight = false;
 
-        ray = Physics.RaycastAll(feet.transform.position, Vector3.left, runSpeed * 3f);
+        ray = Physics.RaycastAll(feet.transform.position, Vector3.right, runSpeed * 3f);
 
         for (int i = 0; i < ray.Length; i++)
             if (ray[i].transform.tag == "Wall")
@@ -162,9 +162,12 @@ public class Player : MonoBehaviour
         isDashing = false;
     }
 
+
+
     public void KnockBack()
     {
-        WinLoss_Ratio -= 0.2f;
+        print("starting local knockback for " + name);
+        WinLoss_Ratio -= 0.1f;
         print("winloss ratio is now: " + WinLoss_Ratio);
         if (WinLoss_Ratio < 0.0f)
         {
@@ -178,6 +181,7 @@ public class Player : MonoBehaviour
 
     private IEnumerator knockBack()
     {
+        print("starting local knockback for "+name);
         SInherit.ChangeState("Hit");
         GameObject go = GameObject.Instantiate(smackParticles, transform.position, Quaternion.identity) as GameObject;
         go.transform.parent = transform;
@@ -199,8 +203,6 @@ public class Player : MonoBehaviour
                 break;
         }
 
-
-
         float noob = client.me.transform.position.x - client.them.transform.position.x;
         float dist = 0f;
 
@@ -209,11 +211,13 @@ public class Player : MonoBehaviour
         else
             dist = .2f;
 
+        if (client.me == gameObject)
+            dist *= -1f;
+
         for (int i = 0; i < FramesForKnockback; i++)
         {
-            gameObject.transform.Translate(new Vector3(dist, 0f, 0f), Space.World);
-
-
+            if ((dist > 0 && canLeft) || dist < 0 && canRight)
+                gameObject.transform.Translate(new Vector3(dist, 0f, 0f), Space.World);
             yield return new WaitForEndOfFrame();
         }
     }
@@ -386,5 +390,18 @@ public class Player : MonoBehaviour
         }
     }
 
-
+    void OnGUI()
+    {
+        if (name.Contains("me"))
+        {
+            GUILayout.Label("");
+            GUILayout.Label("");
+            GUILayout.Label("");
+            GUILayout.Label("");
+            GUILayout.Label("");
+            GUILayout.Label("");
+            GUILayout.Label("canleft: " + canLeft);
+            GUILayout.Label("canright: " + canRight);
+        }
+    }
 }

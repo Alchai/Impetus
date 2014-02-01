@@ -4,11 +4,11 @@ using System.Collections;
 public class HitBoxLogic : MonoBehaviour
 {
     int me = 0;
-    private GameObject mine, theirs, smackParticles, client;
-
+    private GameObject mine, theirs, smackParticles;
+    private Client client;
     void Start()
     {
-        client = GameObject.Find("Client");
+        client = GameObject.Find("Client").GetComponent<Client>();
 
         smackParticles = Resources.Load("Smack") as GameObject;
 
@@ -28,30 +28,33 @@ public class HitBoxLogic : MonoBehaviour
 
     void OnTriggerStay(Collider co)
     {
-        print("ontriggerstay");
-        print(mine);
         if (co.transform.tag.Contains("Hurt") && !co.transform.name.Contains(me.ToString()) && mine.GetComponent<Player>().isAttacking)
         {
             print("hitconfirm!");
             //////////////////////////////////////////////////////////////////
             //     WE HIT EM /////
             ////////////////////
-            mine.GetComponent<Player>().WinLoss_Ratio += 0.05f;
+            mine.GetComponent<Player>().WinLoss_Ratio += 0.1f;
+
             if (mine.GetComponent<Player>().WinLoss_Ratio > 1.0f)
                 mine.GetComponent<Player>().WinLoss_Ratio = 1.0f;
 
             print(mine.GetComponent<Player>().WinLoss_Ratio);
+
             try
             {
 
                 theirs.GetComponent<Player>().KnockBack();
-
+                client.networkView.RPC("SendKnockback", RPCMode.Server, client.mySID, client.playerNum);
+        
             }
             catch
             {
 
                 theirs = GameObject.Find("them");
                 theirs.GetComponent<Player>().KnockBack();
+                client.networkView.RPC("SendKnockback", RPCMode.Server, client.mySID, client.playerNum);
+        
 
             }
             StartCoroutine("DisableCollider");

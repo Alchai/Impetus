@@ -103,6 +103,21 @@ public class Server : MonoBehaviour
     #region RPCs
 
     [RPC]
+    public void SendKnockback(int sID, int playerNum)
+    {
+         foreach (Session s in activeSessions)
+            if (sID.Equals(s.seshID))
+            {
+                print("sending knockback!");
+                if (playerNum == 1)
+                    networkView.RPC("SendKnockback", s.p2, sID, playerNum);
+                else
+                    networkView.RPC("SendKnockback", s.p1, sID, playerNum);
+            }
+     
+    }
+
+    [RPC]
     public void SendInput(int index, bool down_or_up, int seshID, bool p1_p2, Vector3 snapPos)
     {
         foreach (Session s in activeSessions)
