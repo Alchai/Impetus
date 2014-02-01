@@ -168,6 +168,7 @@ public class Player : MonoBehaviour
     {
         print("starting local knockback for " + name);
         WinLoss_Ratio -= 0.1f;
+       
         print("winloss ratio is now: " + WinLoss_Ratio);
         transform.FindChild("3DText").GetComponent<TextMesh>().text = WinLoss_Ratio.ToString();
 

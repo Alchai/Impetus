@@ -32,9 +32,10 @@ public class HitBoxLogic : MonoBehaviour
         {
             print("hitconfirm!");
             mine.GetComponent<Player>().WinLoss_Ratio += 0.1f;
-           
+            
             if (mine.GetComponent<Player>().WinLoss_Ratio > 1.0f)
                 mine.GetComponent<Player>().WinLoss_Ratio = 1.0f;
+            
             GameObject.FindGameObjectWithTag("Text" + me.ToString()).GetComponent<TextMesh>().text = mine.GetComponent<Player>().WinLoss_Ratio.ToString();
 
             print(mine.GetComponent<Player>().WinLoss_Ratio);
