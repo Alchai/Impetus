@@ -31,6 +31,7 @@ public class AudioManager : MonoBehaviour
         AudioClip[] tempSoundArray = Resources.LoadAll<AudioClip>("Sounds");
         for (int curSoundIndex = 0; curSoundIndex < tempSoundArray.Length; ++curSoundIndex)
         {
+            print(tempSoundArray[curSoundIndex].name);
             sounds.Add(tempSoundArray[curSoundIndex].name, tempSoundArray[curSoundIndex]);
         }
         AudioClip[] tempMusArray = Resources.LoadAll<AudioClip>("Music");
@@ -39,7 +40,7 @@ public class AudioManager : MonoBehaviour
             music.Add(tempMusArray[curMusIndex].name, tempMusArray[curMusIndex]);
         }
 
-        playBGM();
+        // playBGM();
 
         //Get a ref to the player
         if (!mainMenus)

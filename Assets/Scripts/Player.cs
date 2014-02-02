@@ -187,19 +187,21 @@ public class Player : MonoBehaviour
         go.transform.parent = transform;
         Destroy(go, 1f);
 
-        switch (this.client.myChar)
+        switch (this.gameObject.tag)
         {
-            case 0:
+            case "Character 1":
+                print("Cavemanhurt");
                 AudioManager.play("Caveman_groan2", 1.0f, this.transform.position);
                 break;
-            case 1:
+            case "Character 2":
+                print("future attack");
                 AudioManager.play("Cyborg_Hurt2", 1.0f, this.transform.position);
                 break;
-            case 2:
+            case "Character 3":
                 AudioManager.play("Spartan_death1", 1.0f, this.transform.position);
                 break;
-            case 3:
-                AudioManager.play("Caveman_Jump3", 1.0f, this.transform.position);
+            case "Character 4":
+                AudioManager.play("Samurai_hurt3", 1.0f, this.transform.position);
                 break;
         }
 
@@ -224,6 +226,22 @@ public class Player : MonoBehaviour
 
     private IEnumerator HackAttack()
     {
+        switch (this.gameObject.tag)
+        {
+            case "Character 1":
+                //AudioManager.play("Swoosh_Caveman", 1.0, this.transform.position);
+                AudioManager.play("Caveman_Jump3", 1.0f, this.transform.position);
+                break;
+            case "Character 2":
+                AudioManager.play("Cyborg_Melee1", 1.0f, this.transform.position);
+                break;
+            case "Character 3":
+                AudioManager.play("Spartan_Jump1", 1.0f, this.transform.position);
+                break;
+            case "Character 4":
+                AudioManager.play("Swoosh_Samurai", 1.0f, this.transform.position);
+                break;
+        }
         isAttacking = true;
 
         SInherit.ChangeState("Attack1");
@@ -378,7 +396,23 @@ public class Player : MonoBehaviour
     {
         if (!isAttacking)
         {
-
+            //sound
+            switch (this.gameObject.tag)
+            {
+                case "Character 1":
+                    AudioManager.play("Caveman_Jump1", 1.0f, this.transform.position);
+                    break;
+                case "Character 2":
+                    AudioManager.play("Cyborg_Jump2", 1.0f, this.transform.position);
+                    break;
+                case "Character 3":
+                    //AudioManager.play("GS_Randomizer137", 1.0f, this.transform.position);
+                    AudioManager.play("Spartan_Jump2", 1.0f, this.transform.position);
+                    break;
+                case "Character 4":
+                    AudioManager.play("Samurai_jump1", 1.0f, this.transform.position);
+                    break;
+            }
             isJumping = true;
             SInherit.ChangeState("Jump");
             int counter = 0;

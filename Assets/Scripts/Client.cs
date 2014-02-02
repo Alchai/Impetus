@@ -25,8 +25,8 @@ public class Client : MonoBehaviour
     {
         CharUserName = SystemInfo.deviceName;
         //Network.Connect("72.238.29.102", 843);
-        //Network.Connect("localhost", 843);
-        Network.Connect("192.168.1.174", 843);
+        Network.Connect("localhost", 843);
+       // Network.Connect("192.168.1.174", 843);
         DontDestroyOnLoad(gameObject);
 
         Application.targetFrameRate = 60;
